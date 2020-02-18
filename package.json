@@ -4,6 +4,8 @@
   "description": "Aggregator based on https://github.com/ashleydavis/kubernetes-log-aggregation-example/",
   "main": "index.js",
   "scripts": {
+    "start": "node ./src/index.js",
+    "start:dev": "nodemon --legacy-watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
